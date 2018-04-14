@@ -8,7 +8,7 @@
 
 import UIKit
 
-open class PaperListViewController: UIViewController {
+public class PaperListViewController: UIViewController {
     
     var collectionView: UICollectionView? = UICollectionView(frame: UIScreen.main.bounds, collectionViewLayout: LargeItemsFlowLayout())
     
@@ -29,7 +29,7 @@ open class PaperListViewController: UIViewController {
         super.init(coder: decoder)
     }
     
-    override open func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         edgesForExtendedLayout = []
         view.addSubview(collectionView!)
@@ -44,7 +44,7 @@ open class PaperListViewController: UIViewController {
         }
     }
     
-    override open func viewDidAppear(_ animated: Bool) {
+    override public func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         _ = self.tabBarController?.selectedIndex = 1
         DispatchQueue.main.async {

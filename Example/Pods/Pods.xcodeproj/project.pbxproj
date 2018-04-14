@@ -15,11 +15,11 @@
 		5E9ED8E41D03CACCE56B9908FA059038 /* Pods-PaperList_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 575E4DE55F69987E881CA14902E97A9F /* Pods-PaperList_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A707C425E7A12EC040E0BF92A6DBACB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		829C3FA03B66E9E4512DE132A83ABB63 /* Pods-PaperList_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42B0E234F364E49820B18400028B7DCA /* Pods-PaperList_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A72B403520827E5500F3BBF9 /* PaperlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B403020827E5500F3BBF9 /* PaperlistViewController.swift */; };
-		A72B403620827E5500F3BBF9 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B403120827E5500F3BBF9 /* UILabel+Extension.swift */; };
-		A72B403720827E5500F3BBF9 /* PaperList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B403220827E5500F3BBF9 /* PaperList.swift */; };
-		A72B403820827E5500F3BBF9 /* PaperCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B403320827E5500F3BBF9 /* PaperCollectionCell.swift */; };
-		A72B403920827E5500F3BBF9 /* PaperLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B403420827E5500F3BBF9 /* PaperLayout.swift */; };
+		A72B404B2082853D00F3BBF9 /* PaperCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B40462082853B00F3BBF9 /* PaperCollectionCell.swift */; };
+		A72B404C2082853D00F3BBF9 /* PaperlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B40472082853C00F3BBF9 /* PaperlistViewController.swift */; };
+		A72B404D2082853D00F3BBF9 /* PaperList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B40482082853C00F3BBF9 /* PaperList.swift */; };
+		A72B404E2082853D00F3BBF9 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B40492082853C00F3BBF9 /* UILabel+Extension.swift */; };
+		A72B404F2082853D00F3BBF9 /* PaperLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B404A2082853C00F3BBF9 /* PaperLayout.swift */; };
 		B0AF597888F0FDD3AD2645BD04265DD6 /* Pods-PaperList_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C75846F68B0DDFECD14B8DEDE4287DD /* Pods-PaperList_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -62,11 +62,11 @@
 		9A0A3A1860DD27DFF57114A0C81E2513 /* PaperList-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PaperList-umbrella.h"; sourceTree = "<group>"; };
 		9CF65EA02B4145232D98E53CEE589BAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A63ACF43F50F6DDCEF89EE2B2DE16631 /* Pods-PaperList_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PaperList_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A72B403020827E5500F3BBF9 /* PaperlistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaperlistViewController.swift; sourceTree = "<group>"; };
-		A72B403120827E5500F3BBF9 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
-		A72B403220827E5500F3BBF9 /* PaperList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaperList.swift; sourceTree = "<group>"; };
-		A72B403320827E5500F3BBF9 /* PaperCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaperCollectionCell.swift; sourceTree = "<group>"; };
-		A72B403420827E5500F3BBF9 /* PaperLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaperLayout.swift; sourceTree = "<group>"; };
+		A72B40462082853B00F3BBF9 /* PaperCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaperCollectionCell.swift; sourceTree = "<group>"; };
+		A72B40472082853C00F3BBF9 /* PaperlistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaperlistViewController.swift; sourceTree = "<group>"; };
+		A72B40482082853C00F3BBF9 /* PaperList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaperList.swift; sourceTree = "<group>"; };
+		A72B40492082853C00F3BBF9 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		A72B404A2082853C00F3BBF9 /* PaperLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaperLayout.swift; sourceTree = "<group>"; };
 		ACF9C77FE6B82A9FD74DA8BA3E54D67B /* Pods-PaperList_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaperList_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C6CAD67271FD44D6077F57E501417773 /* PaperList-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PaperList-prefix.pch"; sourceTree = "<group>"; };
 		C9518441AED246E2545F5AC4907AFC13 /* PaperList.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = PaperList.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -180,14 +180,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A72B403A20827E6100F3BBF9 /* Classes */ = {
+		A72B40502082854400F3BBF9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A72B403320827E5500F3BBF9 /* PaperCollectionCell.swift */,
-				A72B403420827E5500F3BBF9 /* PaperLayout.swift */,
-				A72B403220827E5500F3BBF9 /* PaperList.swift */,
-				A72B403020827E5500F3BBF9 /* PaperlistViewController.swift */,
-				A72B403120827E5500F3BBF9 /* UILabel+Extension.swift */,
+				A72B40462082853B00F3BBF9 /* PaperCollectionCell.swift */,
+				A72B404A2082853C00F3BBF9 /* PaperLayout.swift */,
+				A72B40482082853C00F3BBF9 /* PaperList.swift */,
+				A72B40472082853C00F3BBF9 /* PaperlistViewController.swift */,
+				A72B40492082853C00F3BBF9 /* UILabel+Extension.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -203,7 +203,7 @@
 		D28477C682CFDC635384557182ABD74C /* PaperList */ = {
 			isa = PBXGroup;
 			children = (
-				A72B403A20827E6100F3BBF9 /* Classes */,
+				A72B40502082854400F3BBF9 /* Classes */,
 				FE4552FAFD6180EB2AA8772F0FC7E057 /* Pod */,
 				28055D6E89F4C1D0337F2D37FA85389D /* Support Files */,
 			);
@@ -338,6 +338,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					2BA695C2E3D4BA5BF721A839A597E561 = {
+						LastSwiftMigration = 0930;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -379,12 +384,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A72B404B2082853D00F3BBF9 /* PaperCollectionCell.swift in Sources */,
 				057620F274C8E64485F913FF3E3E6065 /* PaperList-dummy.m in Sources */,
-				A72B403520827E5500F3BBF9 /* PaperlistViewController.swift in Sources */,
-				A72B403720827E5500F3BBF9 /* PaperList.swift in Sources */,
-				A72B403620827E5500F3BBF9 /* UILabel+Extension.swift in Sources */,
-				A72B403920827E5500F3BBF9 /* PaperLayout.swift in Sources */,
-				A72B403820827E5500F3BBF9 /* PaperCollectionCell.swift in Sources */,
+				A72B404E2082853D00F3BBF9 /* UILabel+Extension.swift in Sources */,
+				A72B404D2082853D00F3BBF9 /* PaperList.swift in Sources */,
+				A72B404F2082853D00F3BBF9 /* PaperLayout.swift in Sources */,
+				A72B404C2082853D00F3BBF9 /* PaperlistViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +484,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0989064DB9601B221CAF91A7EBC71DB0 /* PaperList.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -512,6 +518,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0989064DB9601B221CAF91A7EBC71DB0 /* PaperList.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
