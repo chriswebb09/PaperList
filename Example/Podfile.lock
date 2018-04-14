@@ -1,0 +1,16 @@
+PODS:
+  - PaperList (0.1.0)
+
+DEPENDENCIES:
+  - PaperList (from `../`)
+
+EXTERNAL SOURCES:
+  PaperList:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PaperList: d59a0887f9a4eed4f715322980a8ad7b09b9c647
+
+PODFILE CHECKSUM: 2c5428f730ad5a0875d4c6ecedf276b6c2a1ffd9
+
+COCOAPODS: 1.5.0

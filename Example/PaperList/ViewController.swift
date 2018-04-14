@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import PaperList
 
-class ViewController: UIViewController {
-
+class ViewController: PaperListViewController{
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,4 +22,6 @@ class ViewController: UIViewController {
     }
 
 }
+
+
 

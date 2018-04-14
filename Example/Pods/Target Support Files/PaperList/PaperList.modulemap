@@ -1,0 +1,6 @@
+framework module PaperList {
+  umbrella header "PaperList-umbrella.h"
+
+  export *
+  module * { export * }
+}
