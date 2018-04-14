@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PaperList_Example' do
+  pod 'PaperList', :path => '../'
+
+  target 'PaperList_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
