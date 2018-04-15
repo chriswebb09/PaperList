@@ -8,7 +8,25 @@
 
 import UIKit
 
-public class PaperCell: UICollectionViewCell {
+public protocol Shadowed {
+    func applyShadow()
+}
+
+extension Shadowed where Self UIView {
+    func applyShadow() {
+        DispatchQueue.main.async { [weak self] in
+            guard let strongSelf = self else { return }
+            strongSelf.layer.shadowColor = UIColor.black.cgColor
+            strongSelf.layer.shadowOpacity = 0.27
+            strongSelf.layer.shadowOffset = CGSize(width: 1, height: 4.9)
+            strongSelf.layer.shadowRadius = 6
+            strongSelf.layer.addSublayer(strongSelf.containerLayer!)
+            strongSelf.layer.cornerRadius = 6
+        }
+    }
+}
+
+open class PaperCell: UICollectionViewCell {
     
     let containerLayer: CALayer? = CALayer()
     

@@ -18,7 +18,7 @@ struct TasklistsItemsConstants {
 
 import UIKit
 
-class TasklistsItemsFlowLayout: UICollectionViewFlowLayout {
+open TasklistsItemsFlowLayout: UICollectionViewFlowLayout {
     override func prepare() {
         super.prepare()
         scrollDirection = .vertical

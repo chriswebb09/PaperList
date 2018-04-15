@@ -1,4 +1,12 @@
 //
+//  PaperlistViewController.swift
+//  PaperList
+//
+//  Created by Christopher Webb-Orenstein on 4/14/18.
+//  Copyright © 2018 Christopher Webb-Orenstein. All rights reserved.
+//
+
+//
 //  PaperList.swift
 //  PaperList
 //
@@ -8,7 +16,7 @@
 
 import UIKit
 
-public class PaperListViewController: UIViewController {
+open class PaperListViewController: UIViewController {
     
     var collectionView: UICollectionView? = UICollectionView(frame: UIScreen.main.bounds, collectionViewLayout: LargeItemsFlowLayout())
     
@@ -29,7 +37,7 @@ public class PaperListViewController: UIViewController {
         super.init(coder: decoder)
     }
     
-    override public func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         edgesForExtendedLayout = []
         view.addSubview(collectionView!)
@@ -44,7 +52,7 @@ public class PaperListViewController: UIViewController {
         }
     }
     
-    override public func viewDidAppear(_ animated: Bool) {
+    override open func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         _ = self.tabBarController?.selectedIndex = 1
         DispatchQueue.main.async {
@@ -64,6 +72,7 @@ public class PaperListViewController: UIViewController {
 }
 
 extension PaperListViewController: UICollectionViewDataSource {
+    
     public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 4
     }
